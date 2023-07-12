@@ -574,7 +574,7 @@ public class TelaVendas extends javax.swing.JFrame {
 
         // Verificar se as datas são válidas
         if (dataVenda == null || dataEntrega == null) {
-            JOptionPane.showMessageDialog(this, "Data inválida.", "Erro", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Data inválida. Preencha os campos de data correntamente! Ex: 01/01/2000", "Erro", JOptionPane.ERROR_MESSAGE);
             return;
         }
 

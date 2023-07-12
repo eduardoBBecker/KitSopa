@@ -283,7 +283,7 @@ public class TelaCadastroProdutos extends javax.swing.JFrame {
         // Verifica se o campo ftxtValor contém apenas números
         String valorString = ftxtValor.getText().replace(",", ".");
         if (!valorString.matches("\\d+(\\.\\d+)?")) {
-            JOptionPane.showMessageDialog(this, "Valor inválido!");
+            JOptionPane.showMessageDialog(this, "Campo 'Valor' possui dados inválidos!");
             return;
         }
 
